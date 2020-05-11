@@ -1,6 +1,6 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import { Auth } from 'aws-amplify';
-import { AMPLIFY_AUTHENTICATOR } from '../../auth.constants';
+import { AMPLIFY_AUTHENTICATOR_CONFIG } from '../../auth.constants';
 
 @Component({
   selector: 'app-auth',
@@ -8,7 +8,7 @@ import { AMPLIFY_AUTHENTICATOR } from '../../auth.constants';
   styleUrls: ['./auth.component.scss'],
 })
 export class AuthComponent implements OnInit {
-  constructor(@Inject(AMPLIFY_AUTHENTICATOR) public readonly amplifyAuthConfig: object) {}
+  constructor(@Inject(AMPLIFY_AUTHENTICATOR_CONFIG) public readonly amplifyAuthConfig: object) {}
 
   ngOnInit() {}
 

@@ -1,1 +1,1 @@
-export const AMPLIFY_AUTHENTICATOR = 'AmplifyAuthenticator';
+export const AMPLIFY_AUTHENTICATOR_CONFIG = 'AmplifyAuthenticatorConfig';

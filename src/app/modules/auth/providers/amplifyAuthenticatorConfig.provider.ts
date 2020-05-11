@@ -1,8 +1,8 @@
 import { Provider } from '@angular/core';
-import { AMPLIFY_AUTHENTICATOR } from '../auth.constants';
+import { AMPLIFY_AUTHENTICATOR_CONFIG } from '../auth.constants';
 
-export const AmplifyAuthenticatorProvider: Provider = {
-  provide: AMPLIFY_AUTHENTICATOR,
+export const AmplifyAuthenticatorConfigProvider: Provider = {
+  provide: AMPLIFY_AUTHENTICATOR_CONFIG,
   useValue: {
     hideAllDefaults: true,
     signUpFields: [

@@ -1,0 +1,22 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-serverlessoauth-dev-100544-authRole",
+            "UnauthRoleArn": "arn:aws:iam::560875410618:role/amplify-serverlessoauth-dev-100544-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::560875410618:role/amplify-serverlessoauth-dev-100544-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-serverlessoauth-dev-100544-deployment",
+            "UnauthRoleName": "amplify-serverlessoauth-dev-100544-unauthRole",
+            "StackName": "amplify-serverlessoauth-dev-100544",
+            "StackId": "arn:aws:cloudformation:us-east-2:560875410618:stack/amplify-serverlessoauth-dev-100544/d8b33d70-9355-11ea-8245-063c30684966",
+            "AmplifyAppId": "d3att99ygeq2e"
+        },
+        "categories": {
+            "auth": {
+                "serverlessoauth7b4f9145": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Facebook\",\"client_id\":\"168186367819002\",\"client_secret\":\"840aa84faf2dad5ccc0d6df2efcb33c3\"},{\"ProviderName\":\"Google\",\"client_id\":\"1022554773357-t6rsa09lqq4t2qq07djqkdi3fot0qf1r.apps.googleusercontent.com\",\"client_secret\":\"rs1vgzLpDEqFajpkyrv9oSi7\"}]"
+                }
+            }
+        }
+    }
+}
